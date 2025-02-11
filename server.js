@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.static("public")); // Serve static files
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/portfolio", {
+mongoose.connect("mongodb+srv://pateldaksh7792:<db_password>@cluster0.ph4xj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
