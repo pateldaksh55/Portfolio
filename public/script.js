@@ -39,10 +39,10 @@ document.getElementById("readless")?.addEventListener("click", function() {
 let downloadBtn = document.getElementById('downloadButton');
 if (downloadBtn) {
   downloadBtn.addEventListener('click', function() {
-    const pdfUrl = 'White Simple Student CV Resume.pdf';
+    const pdfUrl = 'Daksh_Resume.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'RESUME.pdf';
+    link.download = 'Daksh_RESUME.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
